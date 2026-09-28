@@ -10,7 +10,6 @@ llm = ChatOpenAI(model="gpt-4o-mini")
 
 
 class State(TypedDict):
-    message: str
     ticket: str
     category: str
     urgency: str
